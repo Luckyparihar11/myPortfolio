@@ -1,0 +1,91 @@
+.about-container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+    
+}
+
+.hey{
+    text-align: center;
+}
+
+.edit{
+    width: 330px;
+    height:430px;
+}
+.about-me-image{
+    position: absolute;
+    left: 155px;
+    top: 1000px;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.about-me-image:hover{
+    transform: rotate(0deg);
+    box-shadow: 5px 5px 5px 10px rgb(57, 53, 114);
+}
+
+/* right */
+.about-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.about-card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+
+}
+.about-card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about-icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.about-card h4{
+    font-size: 1rem;
+}
+.about-card small{
+    font-size: 0.8rem;
+    color: var(--color-light);
+}
+.about-content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+
+}
+
+/* tab */
+/* @media screen and (max-width:1024px){
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+  } */
+
+  /* smartphome */
+  /* @media screen and (max-width:1024px){
+    .about-container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about-me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+  } */
+
+
+

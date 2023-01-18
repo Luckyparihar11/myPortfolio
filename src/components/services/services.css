@@ -1,0 +1,56 @@
+.perform{
+    text-align: center;
+}
+
+.code{
+    width: 65%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.code>div{
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+
+    border: 1px solid transparent;
+    transition: all 200ms ease;
+}
+
+.code>div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.coding-head{
+    position: relative;
+}
+.l-edit{
+    position: absolute;
+    margin-left: 2px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.lcf-edit{
+    position: absolute;
+    margin-left: 4px;
+    bottom:126px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.lgfg-edit{
+    position: absolute;
+    margin-left: 4px;
+    font-size: 17px;
+    bottom:127px;
+    cursor: pointer;
+}
+.up-dist{
+    font-size: 18px;
+    
+}
+.icon-c{
+    font-size: 1rem;
+}
